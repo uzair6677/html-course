@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="absolue perfect guide for beginner to learn full stack">
+    <meta name="keywords" content="webdev,guide,blog"> 
+    <meta name="author" content="uzair">
+    
     <title>Document</title>
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -101,8 +106,9 @@
     <!-- form and input -->
     <h1>student admission form</h1>
     <form action="backend.php">
+        <label for="studentsName">Name</label>
         <div>
-            Name: <input type="text" name="sudentName" value="" placeholder="enter your name">
+          <input type="text" name="studentName" value="" id="studentsName" placeholder="enter your name" class="">
         </div><br>
         <div>
             Contact Number: <input type="number" name="contactNumber" id="">
@@ -132,7 +138,20 @@
             <option value="">fullstack</option>
         </select>
 
+        <br>
+        <input type="submit" value="submit form">
+        <input type="reset" value="">
+
     </form>
+    <hr>
+    <!-- block line element-->
+    <p style="border:2px solid black">Lorem ipsum dolor sit amet.</p>
+    <p style="border:2px solid black">Lorem ipsum dolor sit amet.</p>
+    <p style="border:2px solid black">Lorem ipsum dolor sit amet.</p>
+<!-- inline element-->
+ <span  style="border:2px solid black">Lorem ipsum dolor sit amet.</span><spam  style="border:2px solid black">Lorem ipsum dolor sit amet.</spam>
+<!-- htmlentities refrence-->
+ <p>that is &COPY copyright</p>
 </body>
 
 </html>
