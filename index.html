@@ -97,7 +97,42 @@
             </tr>
         </tbody>
     </table>
-<hr>
+    <hr>
+    <!-- form and input -->
+    <h1>student admission form</h1>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="sudentName" value="" placeholder="enter your name">
+        </div><br>
+        <div>
+            Contact Number: <input type="number" name="contactNumber" id="">
+        </div>
+        <br>
+        <div>Email: <input type="email" name="email" id="">
+        </div>
+        <br>
+        gender:Male <input type="radio" name="gender2" id="">female: <input type="radio" name="gender" id="">
+        <br>
+        <div>
+            Do you accept term and condition? <input type="checkbox" checked name="" id="">
+        </div>
+        <div>
+            DOB: <input type="date" name="dob" id="">
+        </div>
+        <div>
+            upload your image: <input type="file" name="file" id="" accept="image/*">
+
+        </div>
+        <br>
+        Residental address:<br> <textarea name="address" cols="30" row="60" id=""></textarea>
+        <br>
+        web dev <select name="options" id="">
+            <option value="">frontend</option>
+            <option value="">backend</option>
+            <option value="">fullstack</option>
+        </select>
+
+    </form>
 </body>
 
 </html>
